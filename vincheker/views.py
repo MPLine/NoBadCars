@@ -29,9 +29,6 @@ def home(request):
             response = requests.get(url).json()
         
             results = response.get('Results', [])
-            for r in results:
-                print(r)
-                print("-------")
             # Extract main info
             make = next((r['Value'] for r in results if r['Variable'] == 'Make'), '')
             model = next((r['Value'] for r in results if r['Variable'] == 'Model'), '')

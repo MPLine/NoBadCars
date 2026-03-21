@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-uu2!%j8zgv9xk26na#)6=q7lo9)r&^c-3359ekx)d4xj6u#*-m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['nobadcarsvinchecker.onrender.com']
 
 
 # Application definition
