@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['nobadcarsvinchecker.onrender.com']
 
-CSRF_TRUSTED_ORIGINS = ['https://nobadcarsvinchecker.onrender.com/']
+CSRF_TRUSTED_ORIGINS = ['https://nobadcarsvinchecker.onrender.com']
 
 # Application definition
 
